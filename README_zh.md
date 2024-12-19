@@ -39,18 +39,22 @@
 
 > [**HunyuanVideo: A Systematic Framework For Large Video Generation Model**](https://arxiv.org/abs/2412.03603) <br>
 
-## 🎥 作品展示
-<div align="center">
-  <video width="70%" src="https://github.com/user-attachments/assets/22440764-0d7e-438e-a44d-d0dad1006d3d" poster="./assets/video_poster.png"> </video>
-</div>
 
 
 ## 🔥🔥🔥 更新!!
+
 * 2024年12月18日: 🏃‍♂️ 开源 HunyuanVideo [FP8 模型权重](https://huggingface.co/tencent/HunyuanVideo/blob/main/hunyuan-video-t2v-720p/transformers/mp_rank_00_model_states_fp8.pt)，节省更多 GPU 显存。
 * 2024年12月17日: 🤗 HunyuanVideo已经集成到[Diffusers](https://huggingface.co/docs/diffusers/main/api/pipelines/hunyuan_video)中。
 * 2024年12月03日: 🚀 开源 HunyuanVideo 多卡并行推理代码，由[xDiT](https://github.com/xdit-project/xDiT)提供。
 * 2024年12月03日: 👋 开源 HunyuanVideo 文生视频的推理代码和模型权重。
 
+
+
+## 🎥 作品展示
+
+<div align="center">
+  <video width="70%" src="https://github.com/user-attachments/assets/22440764-0d7e-438e-a44d-d0dad1006d3d" poster="./assets/video_poster.png"> </video>
+</div>
 
 
 ## 🧩 社区贡献
@@ -60,6 +64,8 @@
 - ComfyUI (支持FP8推理、V2V和IP2V生成): [ComfyUI-HunyuanVideoWrapper](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper) by [Kijai](https://github.com/kijai)
 
 - FastVideo (一致性蒸馏模型): [FastVideo](https://github.com/hao-ai-lab/FastVideo) by [Hao AI Lab](https://hao-ai-lab.github.io/)
+
+- HunyuanVideo-gguf (GGUF、量化): [HunyuanVideo-gguf](https://huggingface.co/city96/HunyuanVideo-gguf) by [city96](https://huggingface.co/city96)
 
 
 
