@@ -191,7 +191,9 @@ def add_denoise_schedule_args(parser: argparse.ArgumentParser):
     )
     group.add_argument(
         "--flow-reverse",
-        action="store_true",
+        # action="store_true",
+        type=bool,
+        default=True,
         help="If reverse, learning/sampling from t=1 -> t=0.",
     )
     group.add_argument(
@@ -251,7 +253,9 @@ def add_inference_args(parser: argparse.ArgumentParser):
     )
     group.add_argument(
         "--use-cpu-offload",
-        action="store_true",
+        # action="store_true",
+        type=bool,
+        default=True,
         help="Use CPU offload for the model load.",
     )
 
@@ -348,7 +352,9 @@ def add_inference_args(parser: argparse.ArgumentParser):
 
     group.add_argument(
         "--use-fp8",
-        action="store_true",
+        # action="store_true",
+        type=bool,
+        default=True,
         help="Enable use fp8 for inference acceleration."
     )
 

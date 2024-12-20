@@ -1,0 +1,13 @@
+python3 sample_video.py \
+    --dit-weight "/workspace/HunyuanVideo/ckpts/hunyuan-video-t2v-720p/transformers/mp_rank_00_model_states_fp8.pt" \
+    --video-size 480 480 \
+    --video-length 97 \
+    --infer-steps 30 \
+    --prompt "A dog walks on the grass, realistic style." \
+    --seed 42 \
+    --embedded-cfg-scale 6.0 \
+    --flow-shift 7.0 \
+    --flow-reverse \
+    --use-cpu-offload \
+    --use-fp8 \
+    --save-path ./results
